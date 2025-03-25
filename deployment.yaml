@@ -16,6 +16,6 @@ spec:
       - name: regcred
       containers:
       - name: iris-prediction
-        image: artmakar/iris-prediction:latest
+        image: vekosek3000/iris_prediction:latest
         ports:
         - containerPort: 5000
