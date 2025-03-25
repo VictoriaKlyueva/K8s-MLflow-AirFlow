@@ -1,5 +1,5 @@
 # Деплой ML сервиса в Kubernetes
-В рамках задания был поднят локальный kubernetes кластер с помощью minikube и запущен как 3 экземпляра подов flask сервис с инференсом простой GradientBoostingClassifier моделью, обученной на датасете iris. 
+В рамках задания был поднят локальный kubernetes кластер с помощью minikube и запущен как 3 экземпляра подов flask сервис с инференсом простой GradientBoostingClassifier модели, обученной на датасете iris. 
 
 ### Запущенные поды:
 <img src="https://github.com/VictoriaKlyueva/kubernetes_task/blob/master/images/Running%20pods.png">
