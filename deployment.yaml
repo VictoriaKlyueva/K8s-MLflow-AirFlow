@@ -19,3 +19,6 @@ spec:
         image: vekosek3000/iris_prediction:latest
         ports:
         - containerPort: 5000
+        env:
+          - name: ML_FLASK_ENV
+            value: 'http://localhost:5000'

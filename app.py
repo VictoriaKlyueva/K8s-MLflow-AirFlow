@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
-import joblib
+import mlflow
 import numpy as np
 
 app = Flask(__name__)
 
-# Загрузка модели
-model = joblib.load('iris_model.joblib')
+model_uri = 'models:/IrisApp/Production'
+model = mlflow.pyfunc.load_model(model_uri)
 
 
 @app.route('/predict', methods=['POST'])
